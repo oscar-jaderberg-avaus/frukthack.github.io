@@ -21,9 +21,12 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P2F7XKN"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-<button onclick="console.log(ga(function(tracker) {
+  
+  
+<button onclick="ga(function(tracker) {
   var clientId = tracker.get('clientId');
-}))">Click me</button>
+  console.log(clientId)
+  }))">Click me</button>
 
 
   <p>FruktHACK!!</p>
